@@ -176,6 +176,19 @@ hr.socket{
   border-top: .2rem solid #666b71;
   margin-top: 3rem;
 }
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 
 /* Media Quires */
 @media (max-width:767px ){
