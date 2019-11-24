@@ -78,7 +78,16 @@ body{
 /* Landing Page */
 
 .home-inner{
-  background: url(./img/computers.png);
+  background:  url(./img/fondo-home.jpg);
+}
+.home-inner::before{
+  content: "";
+  position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  background-color:rgba(0, 0, 0, 0.6) ;
 }
 .caption{
   width: 100%;
@@ -106,6 +115,15 @@ body{
   border-radius: 0;
   padding: .6rem 1.3rem;
   font-size: 1.1rem;
+  animation:shadow-pulse 1s infinite;
+}
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
 }
 /* Course */
 .narrow{
