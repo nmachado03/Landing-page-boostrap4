@@ -53,13 +53,21 @@ body{
   margin: 5px 0;
   width: 32px;
 }
-.nav-icon.collapsed span:nth-child(1){
+.nav-icon[aria-expanded="true"] span:nth-child(1){
+  width: 30px;
+  top: 30px;
+  right: 30px;
+  display: block;
   transform: rotate(45deg);
 } 
-.nav-icon.collapsed span:nth-child(2){
+.nav-icon[aria-expanded="true"] span:nth-child(2){
   display: none;
 }
-.nav-icon.collapsed span:nth-child(3){
+.nav-icon[aria-expanded="true"] span:nth-child(3){
+  width: 30px;
+  top: 30px;
+  right: 30px;
+  display: block;
   transform: rotate(-45deg);
 } 
 @media (min-width:768px){
