@@ -17,7 +17,7 @@
 });
 $(function () {
         
-    var filterList = {
+    let filterList = {
     
         init: function () {
         
