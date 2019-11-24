@@ -33,8 +33,40 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover{
   color:#1ebba3 ;
 }
-
-
+.nav-icon{
+  padding:5px;
+  z-index: 1;
+  
+}
+.nav-icon span{
+  background: #fff;
+  width: 30px;
+  height: 1px;
+  display: block;
+  transition: 300ms linear all;
+}
+.nav-icon span:nth-child(1), .nav-icon span:nth-child(3){
+  width: 20px;
+  margin: 0 auto;
+} 
+.nav-icon span:nth-child(2){
+  margin: 5px 0;
+  width: 32px;
+}
+.nav-icon.collapsed span:nth-child(1){
+  transform: rotate(45deg);
+} 
+.nav-icon.collapsed span:nth-child(2){
+  display: none;
+}
+.nav-icon.collapsed span:nth-child(3){
+  transform: rotate(-45deg);
+} 
+@media (min-width:768px){
+  .nav-icon{
+    display: none;
+  }
+}
 /* Landing Page */
 
 .home-inner{
