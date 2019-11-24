@@ -26,12 +26,12 @@ body{
   padding-right: .7rem;
 }
 .navbar-dark .navbar-nav .nav-link{
-  color: #fff;
+  color: #fff !important;
   padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover{
-  color:#1ebba3 ;
+  color:#1ebba3 !important;
 }
 .nav-icon{
   padding:5px;
@@ -99,10 +99,9 @@ body{
   text-transform: uppercase;
 }
 .caption h1{
-  font-size: 3.8rem;
+  font-size: 3.8rem !important;
   font-weight: 700;
-  letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem #000;
+  letter-spacing: .3rem !important;
   padding-bottom: 1rem;
 }
 .caption h3{
@@ -110,11 +109,11 @@ body{
   text-shadow: .1rem .1rem .5rem #000;
   padding-bottom: 1.6rem;
 }
-.btn-lg{
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.3rem;
-  font-size: 1.1rem;
+.btn-home{
+  border-width: medium !important;
+  border-radius: 0 !important;
+  padding: .6rem 1.3rem !important;
+  font-size: 1.1rem !important;
   animation:shadow-pulse 1s infinite;
 }
 @keyframes shadow-pulse {
