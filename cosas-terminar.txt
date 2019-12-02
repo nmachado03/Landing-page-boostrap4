@@ -1,0 +1,7 @@
+ - encontrar la paleta de colores que vamos a usar
+ - seccion donde se pueda ver una galeria portfolio que se pueda filtrar
+ - mejorar el diseño de la pagina
+ - una seccion hay que cambiarla por los numeritos que amuentan, se eniende?
+ - cambiar iconos y animaciones
+ - hacer el SEO
+ - agregar animaciones y cosas que llamen la atencion
